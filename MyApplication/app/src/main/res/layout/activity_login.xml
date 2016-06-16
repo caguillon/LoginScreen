@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nyc"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.ekok.loginscreen.LoginActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:layout_marginBottom="25dp"
+        android:hint="@string/email"
+        android:textSize="26sp"
+        android:textColorHint="#cdc9c9"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:layout_marginBottom="45dp"
+        android:hint="@string/password"
+        android:textSize="26sp"
+        android:textColorHint="#cdc9c9" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:background="#80ffffff"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:id="@+id/btnForgot"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
